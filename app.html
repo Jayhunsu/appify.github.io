@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Recommendation Site</title>
+    <li rel="Stylesheet" href="app.css"></li>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="tokenSection" class="row">
+            <div class="app">
+                <div class="appify">
+                    <label for="clientId" class="label">Client ID</label>
+                    <input type="text" class="form" id="clientId" placeholder="Client ID">
+                </div>
+                <div class="appify">
+                    <label for="clientSecret" class="label">Client Secret</label>
+                    <input type="text" class="form" id="clientSecret" placeholder="Client Secret">
+                </div>
+                <input class="btn btn-primary" type="button" onclick="requireAuthorization()"
+                    value="Request Authorization"><br>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="appify.js"></script>
+</body>
+
+</html>

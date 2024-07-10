@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to left, black, darkgreen);
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to left, rgb(96, 30, 96), rgb(19, 19, 74));
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+}
+
+select {
+    background: linear-gradient(to left, black, darkgreen);
+}
+
+.opulent {
+    display: flex;
+}
+
+.opul {
+    display: flex;
+}
+
+.space {
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: solid;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: solid;
+}
+
+.app {
+    display: flex;
+}
+
+.appify {
+    display: flex;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+}
+
+img {
+    background: linear-gradient(to left, black, green);
+}
+
+.pic {
+    float: right;
+}
